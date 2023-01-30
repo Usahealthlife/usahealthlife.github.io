@@ -25,12 +25,12 @@ h1{
 }
 .left img{
     display: table-cell;
-    width:450px;
+    width:400px;
     text-align: right;
 }
 .left p{
     text-align: justify;
-    width:450px;
+    width:400px;
     
 }
 .right{
