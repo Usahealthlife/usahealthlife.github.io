@@ -15,7 +15,7 @@ h1{
 .box{
     width:1200;
     height: 300px;
-    padding:50px 50px 30px 50px;
+    padding:50px 350px 30px 350px;
 }
 .left{
     float: left;
@@ -25,17 +25,17 @@ h1{
 }
 .left img{
     display: table-cell;
-    width:400px;
+    width:450px;
     text-align: right;
 }
 .left p{
     text-align: justify;
-    width:400px;
+    width:450px;
     
 }
 .right{
     float:right;
-    width:600;
+    width:700;
     height: 300px;
     padding:0px;
 }
