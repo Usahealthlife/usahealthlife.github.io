@@ -1,0 +1,50 @@
+*{
+
+    margin:0;
+    padding: 0;
+    background-color: blanchedalmond;
+    font-size: 18px;
+    font-family:Arial;
+    text-align: left;
+}
+h1{
+    
+    color:red;
+    font-size:30px;
+    font-weight:bold;
+    text-align:center;
+    
+}
+
+.picbox{
+    width:1200px;
+    height: 600px;
+    margin:0 auto;
+    padding:50px ;
+
+}
+
+
+.left{
+    float: left;
+    width: 500px;
+    padding:100px 0px 10px 100px;
+    text-align: justify;
+}
+
+.right{
+    float: right;
+    width: 600px;
+    padding:100px 0px 10px 150px;
+}
+.right table{
+    font-size: 18px;
+    font-family:Arial;
+    text-align: left;
+
+}
+.right li{
+    font-size: 18px;
+    font-family: Arial;
+    text-align:left;
+}
