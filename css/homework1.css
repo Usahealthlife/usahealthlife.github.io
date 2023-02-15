@@ -36,17 +36,32 @@ h1{
 }
 
 
+.box{
+    width:1200;
+    height: 300px;
+    padding:50px 350px 30px 350px;
+}
 .left{
     float: left;
-    width: 500px;
-    padding:100px 0px 10px 100px;
-    text-align: justify;
+    width:500px;
+    height:300px;
+    padding:0px;
 }
-
+.left img{
+    display: table-cell;
+    width:450px;
+    text-align: right;
+}
+.left p{
+    text-align: justify;
+    width:450px;
+    
+}
 .right{
-    float: right;
-    width: 600px;
-    padding:100px 0px 10px 150px;
+    float:right;
+    width:700;
+    height: 300px;
+    padding:0px;
 }
 
 .box1{
