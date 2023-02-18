@@ -7,6 +7,7 @@
     font-family:Arial;
     text-align: left;
 }
+
 h1{
     
     color:red;
@@ -15,7 +16,17 @@ h1{
     text-align:center;
     
 }
-
+#myinfo{
+    font-family:Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+#myinfo td, #customers th{
+    border: 1px solid rgb(109, 107, 107);
+    padding:8px;
+    height: 70px;
+    text-align: center;
+    width: 150px;
+}
 .picbox{
     width:1200px;
     height: 600px;
@@ -25,26 +36,51 @@ h1{
 }
 
 
+.box{
+    width:1200;
+    height: 300px;
+    padding:50px 350px 30px 350px;
+}
 .left{
     float: left;
-    width: 500px;
-    padding:100px 0px 10px 100px;
+    width:500px;
+    height:300px;
+    padding:0px;
+}
+.left img{
+    display: table-cell;
+    width:450px;
+    text-align: right;
+}
+.left p{
     text-align: justify;
+    width:450px;
+    
 }
-
 .right{
-    float: right;
-    width: 600px;
-    padding:100px 0px 10px 150px;
+    float:right;
+    width:700;
+    height: 300px;
+    padding:0px;
 }
-.right table{
-    font-size: 18px;
-    font-family:Arial;
-    text-align: left;
 
+.box1{
+    width:900;
+    height: 200px;
+    padding:150px 400px 0px 400px;
 }
-.right li{
-    font-size: 18px;
-    font-family: Arial;
-    text-align:left;
+.box1 h3{
+    text-align:center;
+    font-size: 28px;
+    padding-bottom: 10px;
+}
+.box2{
+    width:900;
+    height: 200px;
+    padding:10px 400px 0px 400px;
+}
+.box2 h3{
+    text-align:center;
+    font-size: 28px;
+    padding-bottom: 10px;
 }

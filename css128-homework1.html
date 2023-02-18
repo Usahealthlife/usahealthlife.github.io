@@ -4,43 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My fist webpage</title>
     <link rel="stylesheet" type="text/css" href="css/1.css">
+    <script  src="./js/jquery.js"></script>
+    <script src="./js/firstjs.js"></script>
 </head>
 <body>
     <h1>Homework1 Simple HTML & CSS Page</h1>
     <div class="box">
         <div class="left">
-            <img src="img/IMG_0092.jpeg" alt="pic">
+            <img src="img/IMG_0092.jpeg" alt="pic" class="image-class">
             <p>I am attending this class because I want to develop in webapp and want to switch careers to do website production and maintenance.</p>
         </div>
         <div class="right">
-            <table border="1" cellspacing="0" cellpadding="0"  align="center">
-                <tr height="70" align="center">
-                    <td width="100">Name</td>
-                    <td width="150" > Shasha Lu
+            <table id="myinfo">
+                <tr>
+                    <td>Name</td>
+                    <td> Shasha Lu
                        
                         
                     </td>
-                    <td width="100">Age</td>
-                    <td width="150">38</td>
+                    <td>Age</td>
+                    <td>38</td>
                 </tr>
-                <tr height="70" align="center">
+                <tr>
                     <td>City</td>
                     <td colspan="3">Redwood City</td>
                     
                 </tr>
-                <tr height="70" align="center">
+                <tr>
                     <td>Hobbies</td>
                     <td colspan="3">tennis;learning Spanish</td>
                     
                 </tr>
-                <tr height="120" align="left">
+                <tr>
                  <td>Favorite quotes</td>
                  <td colspan="3">
+                    <ul>
                      <li>The human brain is like an umbrella: <br>It works better when open.</li>
                      <li>It's never too late to have a dream.</li>
-                 </td>
+                    </ul>    
+                    </td>
                 </tr>
                 
             </table>
@@ -59,9 +63,10 @@
         <h3>Resources</h3>
         <ul>
             <li><a href="http://www.w3school.com">W3School</a></li>
-            <li><a href="http:www.github.com">github</a></li>
+            <li><a href="https://www.github.com">github</a></li>
             
         </ul>
     </div>
+    <button id ="animate-button">Animation</button>
 </body>
 </html>
