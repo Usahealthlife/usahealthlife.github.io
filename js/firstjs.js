@@ -7,7 +7,7 @@ $(document).ready(function(){
           width: "120%",  // increase the width by 20%
           height: "120%"  // increase the height by 20%
         }, "slow");
-        $(this).css("border", "50px solid red");  // add a red border
+        $(this).css("border", "5px solid red");  // add a red border
       }, function() {
         $(this).animate({
           width: "100%",  // restore original width
